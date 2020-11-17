@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "jest": true
+    },
+    "parser": "babel-eslint",
+    "plugins": ["prettier"],
+    "extends": [
+        "airbnb",
+        "airbnb/hooks",
+        "plugin:prettier/recommended",
+        "prettier/react"
+    ],
+    "rules": {
+        "prettier/prettier": "error",
+        "no-unused-vars": [
+            "error",
+            { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }
+        ],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/require-default-props": [
+            1,
+            { "ignoreFunctionalComponents": true }
+        ],
+        "react/forbid-prop-types": [1, { "forbid": ["any"] }],
+        "react/destructuring-assignment": [
+            1,
+            "always",
+            { "ignoreClassFields": true }
+        ],
+        "import/no-cycle": 0
+    }
+}
