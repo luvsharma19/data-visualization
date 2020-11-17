@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,KACI,sBACJ,CAEA,6BACI,iBACJ,CAEA,8BACI,iBAAkB,CAClB,YACJ","file":"main.144ddd06.chunk.css","sourcesContent":["body {\n    font-family: sans-serif;\n}\n\n.security-attack-donut-chart {\n    position: relative;\n}\n\n.security-attack-donut-legend {\n    position: absolute;\n    bottom: -10px;\n}\n"]}
