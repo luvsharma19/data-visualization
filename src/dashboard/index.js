@@ -59,10 +59,10 @@ class Dashboard extends React.Component {
                             </Box>
                             <Box
                                 direction='row-responsive'
-                                justify='start'
+                                justify='between'
                                 align='center'
                                 fill='horizontal'
-                                pad={{ bottom: '35px' }}
+                                pad={{ horizontal: '3px', bottom: '35px' }}
                             >
                                 <SecurityAttackMap />
                                 <SecurityAttackDonutChart />
@@ -86,7 +86,7 @@ class Dashboard extends React.Component {
                                 >
                                     Industry Attack Dashboard
                                 </Heading>
-                                <Box pad={{ bottom: '48px' }} width='800px'>
+                                <Box pad={{ bottom: '48px' }} width='600px'>
                                     <SecurityAttackBarChart />
                                 </Box>
                             </Box>

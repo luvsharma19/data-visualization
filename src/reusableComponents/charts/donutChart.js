@@ -12,6 +12,7 @@ const DonutChart = ({
     const donutOptions = {
         ...options,
         chart: {
+            width: 300,
             plotBackgroundColor: null,
             plotBorderWidth: null,
             plotShadow: false,
