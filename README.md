@@ -1,4 +1,4 @@
-# `data-visualization`: Analytics and Reporting Dashboard - Data visualization using JavaScript(React.js) and Highcharts.js library
+# `data-visualization`: Analytics and Reporting Dashboard - Data visualization using JavaScript(React.js) and Highcharts.js library. Works with different screen sizes(Responsive).
 
 `See live demo of app -` https://luvsharma19.github.io/data-visualization/
 
